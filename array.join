@@ -1,0 +1,8 @@
+test_array = [item_1, item_2, item_3]
+
+def test_join_method(array)
+  array.join("!!!!")
+  puts array
+end
+
+test_join_method(test_array)
